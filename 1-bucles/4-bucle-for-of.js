@@ -33,3 +33,37 @@ let gente = [{
         edad: 10
     },
 ]
+
+const MAX_EDAD = 25;
+let arrayFinal = [];
+
+
+//OPCION 1
+for(persona of gente) {
+    if(persona.edad >= MAX_EDAD)  {
+        arrayFinal.push(persona);
+    }
+}
+
+console.log(arrayFinal);
+
+
+
+
+
+
+
+
+
+
+
+//OPCION 2
+for (let i = 0; i < gente.length; i++) {
+    const persona = gente[i];
+
+    if(persona.edad >= MAX_EDAD)  {
+        arrayFinal.push(persona);
+    }
+}
+
+arrayFinal = [];

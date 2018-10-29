@@ -7,8 +7,21 @@
 //   ['20','21','22']
 // ];
 
-let matriz = [
-    [],
-    [],
-    []
-]
+const matriz = [];
+
+const MAX_ELEM = 2;
+
+for (let i = 0; i <= MAX_ELEM; i++) {
+    const fila = [];
+
+    for (let x = 0; x <= MAX_ELEM; x++){
+        fila.push(String(i) + String(x));
+
+    }
+
+    matriz.push(fila);
+}
+
+
+
+console.log(matriz);

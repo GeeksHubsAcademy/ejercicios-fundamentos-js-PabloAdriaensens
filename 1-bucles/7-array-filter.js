@@ -35,3 +35,7 @@ let gente = [{
     },
 ]
 
+const result = gente.filter(gente => gente.nombre.substr(0,1) === 'J' && gente.edad >= 40);
+
+console.log(result);
+

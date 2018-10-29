@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+
+let arrayFinal = [];
+
+for (name of gente) {
+    if (name.nombre.substr(0,1) === 'J') {
+        arrayFinal.push(name);
+    }
+}
+
+console.log(arrayFinal);

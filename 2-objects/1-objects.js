@@ -7,6 +7,20 @@
 // Aquí tu código
 
 
+const ordenador = {
+    marca: 'La pava',
+    tipo: 'portátil',
+    perifericos: [
+        'lo que quieras',
+        'touchPad'
+    ],
+    almacenamiento: {
+        discos : ['SSD', 'HDD'],
+        maestro : 0
+    }
+
+};
+
 
 // Hasta aquí
 

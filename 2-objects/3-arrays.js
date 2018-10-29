@@ -7,7 +7,14 @@
 // Aquí tu código
 
 
-// Hasta aquí
+const arr = [
+    {name: "pepito", age: 25},
+    {name: "pepito", age: 20},
+    {name: 'Julian', age: 18}
+];
+
+
+// Hasta aquí,
 
 // TEST 1
 if (typeof arr === 'object' && arr.length >= 0) {
